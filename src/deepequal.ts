@@ -1,3 +1,8 @@
+/**
+ * deepEqual
+ * @param a
+ * @param b
+ */
 export function deepEqual(a: unknown, b: unknown): boolean {
   if (a === b) return true;
   if (a === null || b === null) return false;

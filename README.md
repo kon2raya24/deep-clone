@@ -19,3 +19,11 @@ npm install deep-clone
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'deep-clone';
+// See API section for available functions
+```

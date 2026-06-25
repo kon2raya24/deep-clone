@@ -1,3 +1,7 @@
+/**
+ * deepClone<T>
+ * @param obj
+ */
 export function deepClone<T>(obj: T): T {
   if (obj === null || typeof obj !== "object") return obj;
   if (obj instanceof Date) return new Date(obj.getTime()) as T;
